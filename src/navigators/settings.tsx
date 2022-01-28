@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, { FC } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 type SettingsStackParamList = {
   Settings: undefined;
@@ -11,13 +11,56 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'orange',
   },
 });
 
 const SettingsScreen: FC = () => {
   return (
     <View style={styles.container}>
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
+      <Text>Settings</Text>
+      <Button title="Button" />
       <Text>Settings</Text>
     </View>
   );
